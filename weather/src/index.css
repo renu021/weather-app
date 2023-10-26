@@ -107,6 +107,10 @@ body{
 p{
   font-size: 22px;
 }
+
+.humidity{
+  margin-right: 10px;
+}
 @media only screen and (max-width: 740px){
   .upper{
   display:block;
@@ -125,7 +129,13 @@ p{
 .boxes{
   display: block;
   margin-left: 66px;
-  font-size: 1rem;;
+  font-size: 1rem;
+  margin-bottom: 40px;
+  transform: 0.1s;
+}
+
+.box:hover{
+  transform: scale(1.1);
 }
   
 .title{

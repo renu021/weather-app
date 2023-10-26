@@ -68,7 +68,7 @@ const App = () => {
                 <img src="https://cdn-icons-png.flaticon.com/512/10127/10127236.png" alt="weather" width={100} height={100} className="png" />
                     {/* <div className="box"> */}
                     <p>Humidity</p>
-                    <h1>{Math.round(data.main.humidity)}</h1>
+                    <h1 className="humidity">{Math.round(data.main.humidity)}</h1>
                 {/* </div> */}
 
                 {/* <div className="box"> */}
